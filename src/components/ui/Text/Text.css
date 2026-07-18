@@ -1,0 +1,20 @@
+.text {
+  max-width: 42rem;
+  margin: 0;
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-body);
+}
+
+.text--primary {
+  color: var(--color-text-primary);
+}
+
+.text--secondary {
+  color: var(--color-text-secondary);
+}
+
+.text--accent {
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}

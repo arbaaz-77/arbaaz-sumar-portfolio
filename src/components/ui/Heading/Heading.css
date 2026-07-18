@@ -1,0 +1,19 @@
+.heading {
+  margin: 0;
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+  letter-spacing: -0.03em;
+}
+
+.heading--level-1 {
+  font-size: clamp(var(--font-size-4xl), 8vw, var(--font-size-6xl));
+}
+
+.heading--level-2 {
+  font-size: clamp(var(--font-size-3xl), 5vw, var(--font-size-5xl));
+}
+
+.heading--level-3 {
+  font-size: var(--font-size-2xl);
+}
