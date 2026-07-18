@@ -1,41 +1,27 @@
+import { Section } from '@/components/layout/Section'
+import { Stack } from '@/components/layout/Stack'
+import { Container } from '@/components/ui/Container'
+import { Heading } from '@/components/ui/Heading'
+import { Text } from '@/components/ui/Text'
+
 function App() {
   return (
-    <main
-      style={{
-        maxWidth: 'var(--content-width)',
-        margin: '0 auto',
-        padding: 'var(--space-24) var(--content-padding)',
-      }}
-    >
-      <p
-        style={{
-          color: 'var(--color-accent)',
-          fontSize: 'var(--font-size-sm)',
-          fontWeight: 'var(--font-weight-semibold)',
-        }}
-      >
-        Software Developer · QA Engineer · AWS Learner
-      </p>
+    <main>
+      <Section>
+        <Container>
+          <Stack>
+            <Text tone="accent">
+              Software Developer · QA Engineer · AWS Learner
+            </Text>
 
-      <h1
-        style={{
-          marginBottom: 'var(--space-4)',
-          fontSize: 'clamp(var(--font-size-4xl), 8vw, var(--font-size-6xl))',
-          letterSpacing: '-0.04em',
-        }}
-      >
-        Arbaaz Sumar
-      </h1>
+            <Heading level={1}>Arbaaz Sumar</Heading>
 
-      <p
-        style={{
-          maxWidth: '42rem',
-          color: 'var(--color-text-secondary)',
-          fontSize: 'var(--font-size-lg)',
-        }}
-      >
-        Building reliable software with an engineering-first mindset.
-      </p>
+            <Text tone="secondary">
+              Building reliable software with an engineering-first mindset.
+            </Text>
+          </Stack>
+        </Container>
+      </Section>
     </main>
   )
 }
