@@ -1,10 +1,14 @@
 import { Hero } from '@/features/hero'
+import { Header } from './features/header'
 
 function App() {
   return (
-    <main>
-      <Hero />
-    </main>
+    <>
+      <Header />
+      <main id="top">
+        <Hero />
+      </main>
+    </>
   )
 }
 
