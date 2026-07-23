@@ -1,0 +1,15 @@
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 100svh;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.hero__status {
+  font-size: var(--font-size-sm);
+}
