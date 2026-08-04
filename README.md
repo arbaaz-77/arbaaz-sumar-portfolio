@@ -4,6 +4,10 @@ A modern software engineering portfolio built with **React**, **TypeScript**, an
 
 This project represents my transition from software development and quality assurance into cloud and AI engineering. Rather than treating the portfolio as a collection of web pages, it is intentionally developed as a production-style software project that demonstrates clean architecture, reusable components, automated testing, accessibility, and professional engineering practices.
 
+## Live Demo
+
+[View the live portfolio](https://arbaaz-sumar-portfolio.netlify.app)
+
 ---
 
 ## ✨ Features
