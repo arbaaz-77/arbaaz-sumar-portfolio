@@ -1,0 +1,22 @@
+.about {
+  scroll-margin-top: var(--space-24);
+}
+
+.about__content {
+  max-width: 44rem;
+}
+
+.about__content h2 {
+  margin-bottom: var(--space-8);
+}
+
+.about__paragraph {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-body);
+}
+
+.about__paragraph + .about__paragraph {
+  margin-top: var(--space-6);
+}

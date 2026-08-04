@@ -1,6 +1,7 @@
 import { Hero } from '@/features/hero'
 import { Header } from './features/header'
 import { Projects } from '@/features/projects'
+import { About } from './features/about'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main id="top">
         <Hero />
         <Projects />
+        <About />
       </main>
     </>
   )
