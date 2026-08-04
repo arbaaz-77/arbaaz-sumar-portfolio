@@ -7,7 +7,8 @@ describe('App', () => {
 
     expect(
       screen.getByRole('heading', {
-        name: /arbaaz sumar/i,
+        level: 1,
+        name: 'Arbaaz Sumar',
       }),
     ).toBeInTheDocument()
   })

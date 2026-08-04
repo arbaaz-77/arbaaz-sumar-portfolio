@@ -1,5 +1,6 @@
 import { Hero } from '@/features/hero'
 import { Header } from './features/header'
+import { Projects } from '@/features/projects'
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <main id="top">
         <Hero />
+        <Projects />
       </main>
     </>
   )
