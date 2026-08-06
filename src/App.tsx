@@ -5,6 +5,7 @@ import { About } from './features/about'
 import { Experience } from './features/experience'
 import { Skills } from './features/skills'
 import { Contact } from './features/contact'
+import { Footer } from './features/footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Contact />
       </main>
+      <Footer />
     </>
   )
 }
