@@ -4,6 +4,7 @@ import { Projects } from '@/features/projects'
 import { About } from './features/about'
 import { Experience } from './features/experience'
 import { Skills } from './features/skills'
+import { Contact } from './features/contact'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Experience />
         <Skills />
+        <Contact />
       </main>
     </>
   )
