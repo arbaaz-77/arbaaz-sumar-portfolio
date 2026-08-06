@@ -3,6 +3,7 @@ import { Header } from './features/header'
 import { Projects } from '@/features/projects'
 import { About } from './features/about'
 import { Experience } from './features/experience'
+import { Skills } from './features/skills'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Projects />
         <About />
         <Experience />
+        <Skills />
       </main>
     </>
   )
