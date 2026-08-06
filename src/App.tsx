@@ -2,6 +2,7 @@ import { Hero } from '@/features/hero'
 import { Header } from './features/header'
 import { Projects } from '@/features/projects'
 import { About } from './features/about'
+import { Experience } from './features/experience'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <Projects />
         <About />
+        <Experience />
       </main>
     </>
   )

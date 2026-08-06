@@ -12,16 +12,12 @@ describe('About', () => {
       }),
     ).toBeInTheDocument()
 
-    expect(
-      screen.getByText(/I began my career building software/i),
-    ).toBeInTheDocument()
+    expect(screen.getByText(/I began my career/i)).toBeInTheDocument()
 
     expect(
-      screen.getByText(/Working in QA changed the way/i),
+      screen.getByText(/Starting in Quality Assurance/i),
     ).toBeInTheDocument()
 
-    expect(
-      screen.getByText(/Today I combine that quality-first mindset/i),
-    ).toBeInTheDocument()
+    expect(screen.getByText(/I was trusted to contribute/i)).toBeInTheDocument()
   })
 })
