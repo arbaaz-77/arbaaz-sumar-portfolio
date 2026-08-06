@@ -1,175 +1,123 @@
 # Arbaaz Sumar Portfolio
 
-A modern software engineering portfolio built with **React**, **TypeScript**, and **Vite**.
-
-This project represents my transition from software development and quality assurance into cloud and AI engineering. Rather than treating the portfolio as a collection of web pages, it is intentionally developed as a production-style software project that demonstrates clean architecture, reusable components, automated testing, accessibility, and professional engineering practices.
+A production-style software engineering portfolio built to demonstrate reusable architecture, automated testing, accessibility and professional development workflows.
 
 ## Live Demo
 
-[View the live portfolio](https://arbaaz-sumar-portfolio.netlify.app)
+👉 https://arbaaz-sumar-portfolio.netlify.app
 
 ---
 
-## ✨ Features
-
-- Responsive portfolio built with React and TypeScript
-- Reusable design system
-- Component-driven architecture
-- Semantic, accessible HTML
-- Automated testing with Vitest and React Testing Library
-- Continuous Integration with GitHub Actions
-- Code quality enforced through ESLint and Prettier
-
----
-
-## 🏗️ Architecture
-
-```text
-src
-├── assets
-├── components
-│   ├── layout
-│   └── ui
-├── features
-├── hooks
-├── layouts
-├── pages
-├── styles
-├── test
-├── types
-└── utils
-```
-
-The application follows a feature-based architecture while sharing reusable UI and layout primitives through a central design system.
-
----
-
-## 🛠 Tech Stack
-
-### Frontend
+## Tech Stack
 
 - React
 - TypeScript
 - Vite
-
-### Quality
-
 - Vitest
-- React Testing Library
-- ESLint
-- Prettier
-
-### DevOps
-
 - GitHub Actions
-- Git
-- GitHub
 
 ---
 
-## ⚙️ Getting Started
+## Engineering Highlights
 
-### Clone the repository
+- Built using a feature-based React architecture
+- Developed reusable layout and UI primitives
+- Configured automated formatting, linting, testing and production builds
+- Added continuous integration with GitHub Actions
+- Used issue-driven development, feature branches and pull-request reviews
+- Deployed continuously with Netlify
 
-```bash
-git clone https://github.com/arbaaz-77/arbaaz-sumar-portfolio.git
+---
+
+## Current Features
+
+- ✅ Responsive Hero section
+- ✅ Sticky navigation
+- ✅ Featured Projects
+- ✅ About section
+- ✅ Experience section
+- ✅ Skills section
+- ⏳ Contact section
+- ⏳ Footer
+- ⏳ SEO & Performance improvements
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+│   ├── layout/
+│   └── ui/
+├── features/
+│   ├── about/
+│   ├── experience/
+│   ├── header/
+│   ├── hero/
+│   ├── projects/
+│   └── skills/
+├── hooks/
+├── layouts/
+├── pages/
+├── styles/
+├── test/
+├── types/
+└── utils/
 ```
 
-### Install dependencies
+---
+
+## Development Workflow
+
+Every significant change follows a professional engineering workflow:
+
+1. Create a GitHub Issue
+2. Create a feature branch
+3. Implement the feature
+4. Add or update tests
+5. Run formatting, linting, tests and production build
+6. Open a Pull Request
+7. Review and merge into `main`
+8. Deploy automatically to Netlify
+
+---
+
+## Quality Gates
 
 ```bash
-npm install
+npm run format
+npm run format:check
+npm run lint
+npm run test:run
+npm run build
 ```
 
-### Start the development server
-
-```bash
-npm run dev
-```
-
 ---
 
-## 📜 Available Scripts
+## Roadmap
 
-| Script                 | Description                       |
-| ---------------------- | --------------------------------- |
-| `npm run dev`          | Start the development server      |
-| `npm run build`        | Create a production build         |
-| `npm run lint`         | Run ESLint                        |
-| `npm run test:run`     | Run the test suite                |
-| `npm run format`       | Format the project using Prettier |
-| `npm run format:check` | Verify formatting                 |
+### ✅ Complete
 
----
+- Engineering foundation
+- Design system
+- Hero
+- Header
+- Projects
+- About
+- Experience
+- Skills
+- Live deployment
 
-## 🧪 Engineering Practices
+### 🚧 In Progress
 
-This repository is intentionally built using a professional software engineering workflow.
+- Contact
+- Footer
 
-Every feature is developed through:
+### 🔜 Planned
 
-- GitHub Issues
-- Feature branches
-- Pull Requests
-- Code Reviews
-- Automated Continuous Integration
-- Component testing
-- Reusable design-system architecture
-
-The goal is to build software with the same discipline used on production engineering teams.
-
----
-
-## 🎨 Design Philosophy
-
-This portfolio follows a minimal, engineering-first design philosophy.
-
-The emphasis is on:
-
-- clarity over decoration
-- consistency over complexity
-- accessibility by default
-- reusable components
-- maintainable architecture
-
-Every UI decision aims to improve readability, usability, and long-term maintainability rather than visual novelty.
-
----
-
-## 🚀 Roadmap
-
-### Foundation
-
-- [x] Project setup
-- [x] Code quality tooling
-- [x] Continuous Integration
-- [x] Project architecture
-- [x] Design tokens
-- [x] Design system
-- [x] Hero section
-- [x] Header and navigation
-
-### In Progress
-
-- [ ] Featured Projects
-- [ ] About
-- [ ] Experience
-- [ ] Skills
-- [ ] Contact
-- [ ] Footer
-- [ ] Performance & SEO
-- [ ] Final production release
-
----
-
-## 👨‍💻 About Me
-
-I'm a Software Developer and Quality Assurance Engineer with experience building reliable software and improving product quality.
-
-I'm currently expanding my expertise in cloud technologies and AI engineering while continuing to strengthen my skills in modern software architecture, testing, and full-stack development.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+- SEO
+- Open Graph metadata
+- Accessibility polish
+- Lighthouse optimisation
+- v1.0 Release
