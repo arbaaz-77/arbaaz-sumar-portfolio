@@ -6,6 +6,7 @@ import { Experience } from './features/experience'
 import { Skills } from './features/skills'
 import { Contact } from './features/contact'
 import { Footer } from './features/footer'
+import { Certifications } from './features/certifications/'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <About />
         <Experience />
         <Skills />
+        <Certifications />
         <Contact />
       </main>
       <Footer />
