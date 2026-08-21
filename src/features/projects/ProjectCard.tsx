@@ -1,3 +1,4 @@
+import { ProjectGallery } from './ProjectGallery'
 import type { Project } from './projectData'
 import './Projects.css'
 
@@ -13,10 +14,15 @@ export function ProjectCard({ project }: ProjectCardProps) {
     technologies,
     repositoryUrl,
     liveUrl,
+    images,
   } = project
 
   return (
     <article className="project-card">
+      {images && images.length > 0 && (
+        <ProjectGallery title={title} images={images} />
+      )}
+
       <div className="project-card__content">
         <h3 className="project-card__title">{title}</h3>
 
@@ -44,6 +50,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             ))}
           </ul>
         </div>
+
         <div className="project-card__links">
           {repositoryUrl && (
             <a
