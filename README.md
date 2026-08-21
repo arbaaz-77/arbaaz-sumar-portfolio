@@ -4,7 +4,7 @@ A production-style software engineering portfolio built to demonstrate reusable 
 
 ## Live Demo
 
-👉 https://arbaaz-sumar-portfolio.netlify.app
+👉 [https://arbaaz-sumar-portfolio.netlify.app](https://arbaaz-sumar-portfolio.netlify.app)
 
 ---
 
@@ -15,6 +15,7 @@ A production-style software engineering portfolio built to demonstrate reusable 
 - Vite
 - Vitest
 - GitHub Actions
+- Netlify
 
 ---
 
@@ -25,6 +26,9 @@ A production-style software engineering portfolio built to demonstrate reusable 
 - Configured automated formatting, linting, testing and production builds
 - Added continuous integration with GitHub Actions
 - Used issue-driven development, feature branches and pull-request reviews
+- Separated project and certification data from presentation logic
+- Added responsive project visual galleries with accessible controls
+- Added verified AWS certification credentials
 - Deployed continuously with Netlify
 
 ---
@@ -34,12 +38,49 @@ A production-style software engineering portfolio built to demonstrate reusable 
 - ✅ Responsive Hero section
 - ✅ Sticky navigation
 - ✅ Featured Projects
+- ✅ Project visual galleries
 - ✅ About section
 - ✅ Experience section
 - ✅ Skills section
-- ⏳ Contact section
-- ⏳ Footer
-- ⏳ SEO & Performance improvements
+- ✅ Certifications section
+- ✅ Contact section
+- ✅ Footer
+- ✅ Continuous deployment
+- ⏳ SEO & metadata
+- ⏳ Accessibility & performance polish
+
+---
+
+## Featured Projects
+
+The portfolio currently showcases:
+
+### Arbaaz Sumar Portfolio
+
+A production-style React and TypeScript portfolio demonstrating feature-based architecture, reusable components, automated testing and CI/CD.
+
+### Citadel Archive
+
+A Python command-line application demonstrating object-oriented programming, JSON persistence, validation and automated testing.
+
+### Figur-atively
+
+An e-commerce application for browsing and purchasing action figures, with authentication, persistent application state and Firebase-backed product data.
+
+### House Market
+
+A property marketplace application for browsing, creating and managing houses available for rent or sale.
+
+Project visuals are included for selected applications to provide direct evidence of their interfaces and functionality.
+
+---
+
+## Certifications
+
+- **AWS Certified AI Practitioner** — Amazon Web Services, 2026
+- **AWS Certified Cloud Practitioner** — Amazon Web Services, 2026
+
+Verified credentials are available through the portfolio's certification links.
 
 ---
 
@@ -47,12 +88,17 @@ A production-style software engineering portfolio built to demonstrate reusable 
 
 ```text
 src/
+├── assets/
+│   └── projects/
 ├── components/
 │   ├── layout/
 │   └── ui/
 ├── features/
 │   ├── about/
+│   ├── certifications/
+│   ├── contact/
 │   ├── experience/
+│   ├── footer/
 │   ├── header/
 │   ├── hero/
 │   ├── projects/
@@ -65,59 +111,3 @@ src/
 ├── types/
 └── utils/
 ```
-
----
-
-## Development Workflow
-
-Every significant change follows a professional engineering workflow:
-
-1. Create a GitHub Issue
-2. Create a feature branch
-3. Implement the feature
-4. Add or update tests
-5. Run formatting, linting, tests and production build
-6. Open a Pull Request
-7. Review and merge into `main`
-8. Deploy automatically to Netlify
-
----
-
-## Quality Gates
-
-```bash
-npm run format
-npm run format:check
-npm run lint
-npm run test:run
-npm run build
-```
-
----
-
-## Roadmap
-
-### ✅ Complete
-
-- Engineering foundation
-- Design system
-- Hero
-- Header
-- Projects
-- About
-- Experience
-- Skills
-- Live deployment
-
-### 🚧 In Progress
-
-- Contact
-- Footer
-
-### 🔜 Planned
-
-- SEO
-- Open Graph metadata
-- Accessibility polish
-- Lighthouse optimisation
-- v1.0 Release
