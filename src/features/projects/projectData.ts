@@ -1,3 +1,9 @@
+import houseMarketExplore from '@/assets/projects/house-market-explore.png'
+import houseMarketRentals from '@/assets/projects/house-market-rentals.png'
+import figurativelyHome from '@/assets/projects/figuratively-home.png'
+import figurativelyCatalog from '@/assets/projects/figuratively-catalog.png'
+import figurativelyCart from '@/assets/projects/figuratively-cart.png'
+
 export type Project = {
   title: string
   description: string
@@ -5,6 +11,7 @@ export type Project = {
   technologies: string[]
   repositoryUrl?: string
   liveUrl?: string
+  images?: string[]
 }
 
 export const projects: Project[] = [
@@ -47,19 +54,20 @@ export const projects: Project[] = [
     technologies: ['React', 'Redux', 'Firebase', 'Sass'],
     repositoryUrl: 'https://github.com/arbaaz-77/figur-atively',
     liveUrl: 'https://figuratively.netlify.app/',
+    images: [figurativelyHome, figurativelyCatalog, figurativelyCart],
   },
   {
-    title: 'GameHub',
-    description:
-      'A responsive game-discovery application that consumes external game data and helps users explore titles through filtering and reusable interface components.',
+    title: 'House Market',
+    description: 'An app to showcase houses for rent or sale',
     highlights: [
-      'Consumed remote game data using Axios',
-      'Built the application using React and TypeScript',
-      'Created reusable filtering and discovery components',
-      'Added responsive presentation and subtle interface motion',
+      'Implemented Google authentication using Firebase',
+      'Built property listing creation and removal flows',
+      'Implemented client-side routing with React Router',
+      'Created a responsive interface for browsing property listings',
     ],
-    technologies: ['React', 'TypeScript', 'Vite', 'Axios', 'Chakra UI'],
-    repositoryUrl: 'https://github.com/arbaaz-77/gamehub',
-    liveUrl: 'https://gamehub-lac.vercel.app/',
+    technologies: ['React', 'React Router', 'Firebase'],
+    repositoryUrl: 'https://github.com/arbaaz-77/house-market',
+    liveUrl: 'https://house-market-rho.vercel.app',
+    images: [houseMarketExplore, houseMarketRentals],
   },
 ]
