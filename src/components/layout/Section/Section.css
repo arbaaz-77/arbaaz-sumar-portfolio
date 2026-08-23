@@ -1,9 +1,9 @@
 .section {
-  padding-block: var(--space-24);
+  padding-block: var(--space-16);
 }
 
 @media (min-width: 48rem) {
   .section {
-    padding-block: var(--space-32);
+    padding-block: var(--space-20);
   }
 }

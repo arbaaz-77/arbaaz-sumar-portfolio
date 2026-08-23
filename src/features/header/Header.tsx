@@ -27,6 +27,17 @@ export function Header() {
                 </a>
               </li>
             ))}
+
+            <li>
+              <a
+                className="header__link"
+                href="/Arbaaz-Sumar-CV.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                CV
+              </a>
+            </li>
           </ul>
         </nav>
       </Container>

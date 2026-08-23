@@ -19,9 +19,8 @@ describe('Hero', () => {
       '#projects',
     )
 
-    expect(screen.getByRole('link', { name: 'Get in touch' })).toHaveAttribute(
+    expect(screen.getByRole('link', { name: 'View CV' })).toHaveAttribute(
       'href',
-      '#contact',
     )
   })
 })

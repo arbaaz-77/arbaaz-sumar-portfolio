@@ -37,10 +37,10 @@ export function About() {
               Software Engineering, developing frontend and backend solutions,
               investigating production defects, and supporting the team wherever
               I could help deliver sprint goals. Today I combine software
-              development with a quality-first engineering mindset while
-              expanding my expertise in AWS, Python and artificial intelligence.
-              My goal is to build software that is reliable, maintainable and
-              genuinely useful to the people who depend on it.
+              development with a quality-first engineering mindset, backed by
+              AWS certifications and hands-on work in Python and artificial
+              intelligence. My goal is to build software that is reliable,
+              maintainable and genuinely useful to the people who depend on it.
             </p>
           </article>
         </Stack>
