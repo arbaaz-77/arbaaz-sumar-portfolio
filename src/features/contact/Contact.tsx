@@ -21,6 +21,11 @@ const contactLinks = [
     href: 'https://github.com/arbaaz-77',
     external: true,
   },
+  {
+    label: 'View CV',
+    href: '/Arbaaz-Sumar-CV.pdf',
+    external: true,
+  },
 ]
 
 export function Contact() {

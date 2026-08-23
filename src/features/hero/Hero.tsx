@@ -13,8 +13,9 @@ export function Hero() {
       <Container>
         <Stack>
           <Text tone="accent">
-            Software Developer · QA Engineer · AWS Learner
+            Software Developer · QA Engineer · AI Developer
           </Text>
+          <Text tone="secondary">AWS Certified AI Practitioner</Text>
 
           <Heading level={1}>Arbaaz Sumar</Heading>
 
@@ -27,8 +28,13 @@ export function Hero() {
           <div className="hero__actions">
             <LinkButton href="#projects">View my work</LinkButton>
 
-            <LinkButton href="#contact" variant="secondary">
-              Get in touch
+            <LinkButton
+              href="/Arbaaz-Sumar-CV.pdf"
+              variant="secondary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View CV
             </LinkButton>
           </div>
 
