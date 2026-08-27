@@ -3,6 +3,8 @@ import houseMarketRentals from '@/assets/projects/house-market-rentals.png'
 import figurativelyHome from '@/assets/projects/figuratively-home.png'
 import figurativelyCatalog from '@/assets/projects/figuratively-catalog.png'
 import figurativelyCart from '@/assets/projects/figuratively-cart.png'
+import watchnestHome from '@/assets/projects/watchnest-home.png'
+import watchnestDetails from '@/assets/projects/watchnest-details.png'
 
 export type Project = {
   title: string
@@ -16,17 +18,20 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'Arbaaz Sumar Portfolio',
+    title: 'Watchnest',
     description:
-      'A production-style software engineering portfolio built to demonstrate reusable architecture, automated testing, accessibility and professional development workflows.',
+      'A full-stack media discovery and tracking web application for browsing movies and TV shows, powered by the TMDB API.',
     highlights: [
-      'Created a reusable design system using typed React components',
-      'Configured automated formatting, linting, testing and production builds',
-      'Added continuous integration using GitHub Actions',
-      'Used issue-driven development, feature branches and pull-request reviews',
+      'Built a responsive media discovery experience using Next.js App Router',
+      'Integrated the TMDB API to retrieve movie and TV show data',
+      'Implemented dynamic routes for individual movie and TV show details',
+      'Built reusable media cards and navigation components',
+      'Added search and browsing experiences for discovering titles',
     ],
-    technologies: ['React', 'TypeScript', 'Vite', 'Vitest', 'GitHub Actions'],
-    repositoryUrl: 'https://github.com/arbaaz-77/arbaaz-sumar-portfolio',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'TMDB API'],
+    repositoryUrl: 'https://github.com/arbaaz-77/watchnest',
+    liveUrl: 'https://watchnest-a.netlify.app',
+    images: [watchnestHome, watchnestDetails],
   },
   {
     title: 'Citadel Archive',
